@@ -45,5 +45,13 @@ const rollSound = new Audio("./assets/s/s.mp3");
 $('.saveBtn').click(e => rollSound.play());
   
 
+function isMobileWidth() {
+    return $('textarea').removeClass('col-10')
+    
+}
+function isMobileWidth() {
+    return $('textarea').addClass('col-7');
+    
+}
 
 
