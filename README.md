@@ -1,5 +1,5 @@
 # Work-Day-Scheduler
-This is school projac.
+This is school projact.
 
 ## Task
 Create a simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
@@ -33,8 +33,8 @@ The following animation demonstrates the application functionality:
 
 HTML, CSS , JQ and Boostsrap.
 
-
-
+## Projact link
+https://asadi80.github.io/Work-Day-Scheduler/
 
 ## You can reach me on
 ---

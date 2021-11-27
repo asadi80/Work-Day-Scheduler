@@ -8,8 +8,15 @@ $('.saveBtn').on('click', function(){
         var id = $(this).attr('id');
         var value = $(this).val();
        localStorage.setItem(id, value);
-       
+ 
     });   
+});
+$('textarea').keyup(function(e){
+    var code = e.which;
+    if(code == 13){
+        e.preventDefault();
+        $('.saveBtn').trigger('click');
+    }
 });
 
             //gitng data from localstorage
@@ -33,13 +40,10 @@ $(document).ready( function(){
     }); 
 
 });
-
-   
+        // adding sound when you click
+const rollSound = new Audio("./assets/s/s.mp3");
+$('.saveBtn').click(e => rollSound.play());
   
-
-
-
-
 
 
 
